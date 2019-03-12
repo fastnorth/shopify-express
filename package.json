@@ -1,18 +1,17 @@
 {
-  "name": "@shopify/shopify-express",
-  "version": "1.0.0-alpha.7",
-  "author": "Shopify Inc.",
-  "description": "Get up and running quickly with Express.js and the Shopify API.",
+  "name": "@race-roster/shopify-express",
+  "version": "1.0.0-alpha.8",
+  "author": "Race Roster",
+  "description": "Get up and running quickly with Express.js and the Shopify API. This package was originally forked from https://github.com/Shopify/shopify-express.git",
   "keywords": [
     "shopify",
     "express.js",
     "express middleware"
   ],
-  "bugs": "https://github.com/Shopify/shopify-express/issues",
-  "license": "MIT",
+  "bugs": "https://github.com/fastnorth/shopify-express/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Shopify/shopify-express.git"
+    "url": "https://github.com/fastnorth/shopify-express.git"
   },
   "engines": {
     "node": ">=8.1.0"
@@ -29,8 +28,9 @@
       "prettier:check"
     ]
   },
+  "license": "UNLICENSED",
   "publishConfig": {
-    "access": "public"
+    "registry": "https://npm.rostrr.com"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
